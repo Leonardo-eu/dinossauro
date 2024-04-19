@@ -52,6 +52,9 @@ nav a:hover {
     text-shadow: 1px 1px 2px #00000096;
 }
 /*                           main                        */
+p {
+    text-indent: 20px;
+}
 main p {
     text-align: justify;
     padding: 40px;
@@ -79,5 +82,16 @@ section#i1 {
     background-size: cover;
     background-position: center center;
     height: 60vh;
+}
+
+footer {
+    margin-top: 40px;
+    background-color: var(--cor01);
+    color: white;
+    font-size: .5em;
+    padding: 20px;
+}
+footer h1 {
+    text-align: center;
 }
 
